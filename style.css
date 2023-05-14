@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-color: rgba(0, 0, 0, 0);
+    padding-top: 165px;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+/*=================== INDEX ======================*/
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-height: 70px;
+    z-index: 99;
+}
+
+nav {
+    max-height: 100%;
+    background-color: #99dcf0;
+    font-size: 20px;
+}
+
+.logo-contenedor {
+    display: inline-block;
+}
+
+.logo-contenedor img {
+    width: 5rem;
+    border-radius: 5px;
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+    text-align: right;
+    padding: 2rem;
+
+    margin: 5px 10px 12px 15px;
+    padding-right: 1rem;
+}
+
+li {
+    width: 10rem;
+    left: 20rem;
+    display: inline-block;
+    border-radius: 3rem;
+    padding-left: 2rem;
+}
+
+.enlace-principal {
+    margin-right: 0%;
+    list-style: none;
+    margin-top: 7rem;
+    float: right;
+}
+
+
+
+
+.primer-bloque {
+
+    background-color: #0b4a5d;
+    padding: 3rem;
+}
+
+.primer-foto {
+
+    width: 25rem;
+    float: right;
+    padding-right: 3rem;
+}
+
+.textos-amplios-1 {
+    display: inline-block;
+    text-align: right;
+    padding: 2rem;
+    width: 50%;
+    color: white;
+    margin-bottom: 6rem;
+
+    font-size: 25px;
+}
+
+
+.segundo-bloque {
+    background-color: #0b4a5d;
+    padding: 2rem;
+}
+
+.segunda-foto {
+    border: 7rem;
+    margin: 2rem;
+    width: 30rem;
+    display: inline-block;
+}
+
+.textos-amplios-2 {
+    display: inline-block;
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    width: 50%;
+    text-align: left;
+    padding: 2rem;
+}
+
+/*=========================== FINAL FOOTER ==================================== */
+.redes-footer {
+    background-color: #99dcf0;
+}
+
+.final-index {
+    font-size: 3rem;
+    display: inline-block;
+    padding: 2rem;
+    font-size: 3rem;
+
+}
+
+.logo-insta {
+    display: inline-block;
+    width: 5rem;
+    padding: 2rem;
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+
+}
+
+.logo-youtube {
+    display: inline-block;
+    width: 5rem;
+    padding: 2rem;
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+}
+
+
+
+
+
+/*=========================== DISCOGRAFIA ===============================*/
+
+.cuerpo-disco {
+    background-color: #0b4a5d;
+}
+
+.conteiner-video1 {
+    background-color: #0b4a5d;
+    display: flex;
+    display: flex;
+    justify-content: right;
+    padding: 2rem;
+}
+
+.texto-disco {
+    display: inline-block;
+    text-align: right;
+    padding: 2rem;
+    width: 50%;
+    color: white;
+    margin-bottom: 6rem;
+    font-size: 25px;
+}
+
+.item-disco {
+    padding-top: 7%;
+    color: white;
+    font-size: 25px;
+    font-weight: 200%;
+}
+
+.container-video2 {
+    background-color: #0b4a5d;
+    padding: 5px;
+    justify-content: right;
+    padding-left: 20rem;
+    padding-bottom: 6rem;
+}
+
+.texto-disco2 {
+    background-color: #0b4a5d;
+    display: inline-block;
+    text-align: right;
+    padding: 1rem;
+    width: 50%;
+    color: white;
+    margin-bottom: 6rem;
+    font-size: 25px;
+}
+
+.conteiner-video3 {
+    background-color: #0b4a5d;
+    display: flex;
+    display: flex;
+    justify-content: right;
+    padding: 2rem;
+}
+
+/*============== GALERIA ========================*/
+
+.conteiner-galeria1 {
+    background-color: #0b4a5d;
+    display: inline block;
+    padding: 6rem;
+    padding-right: 2rem;
+}
+
+.imag1 {
+    width: 40rem;
+    height: 26rem;
+}
+
+.imag2 {
+    width: 40rem;
+}
+
+.conteiner-galeria2 {
+    background-color: #0b4a5d;
+    padding-left: 5rem;
+    padding-bottom: 3rem;
+}
+
+.conteiner-galeria3 {
+    background-color: #0b4a5d;
+    padding-right: 3rem;
+    padding-left: 17rem;
+}
+
+/* ==============  CONTACTOS ===============  */
+
+
+.bloque-conteiner-contacto {
+    background-color: #0b4a5d;
+    padding: 5rem;
+}
+
+.bloque-contacto1 {
+    display: inline-block;
+    font-size: 30px;
+    width: 50%;
+    text-align: left;
+    border-bottom: 20rem;
+    vertical-align: top;
+    color: white;
+
+
+}
+
+.texto-contacto {
+    color: white;
+}
+
+input,
+textarea {
+    border-radius: 15px;
+    width: 100%;
+    padding: 20px;
+}
+
+.nombre-campo {
+    font-size: 25px;
+    color: white;
+}
+
+.enviar-formu {
+    left: 10px;
+}
+
+.enviar-formu {
+    display: block;
+}
+
+
+.bloque-contacto2 {
+    background-color: #0b4a5d;
+    font-size: 40px;
+    display: inline-block;
+    padding: 30px;
+
+}
+
+.nombre-campo {
+    display: block;
+}
+
+/* ===================  PLATAFORMA ===========================
+*/
+
+.cuerpo-plataf {
+    background-color: #0b4a5d;
+
+}
+
+
+.bloque-plat1 {
+    display: inline-block;
+}
+
+.imag-plat1 {
+    width: 20rem;
+    padding: 40px;
+
+
+}
+
+.texto-comple {
+    font-size: 50px;
+    display: inline-block;
+    padding-left: 20rem;
+    margin-top: 25%;
+    vertical-align: top;
+    color: white;
+}
+
+.imag-plat2 {
+    width: 25rem;
+    padding: 40px;
+
+}
