@@ -6,8 +6,8 @@
 
 
 body {
-    background: rgb(63,94,251);
-background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(18,83,217,1) 67%);
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(18, 83, 217, 1) 67%);
     padding-top: 165px;
     font-family: 'PT Sans Narrow', sans-serif;
 
@@ -74,7 +74,7 @@ li {
 }
 
 .textos-amplios-1 {
-   
+
     padding: 3rem;
     width: 50%;
     color: white;
@@ -94,20 +94,22 @@ li {
     height: 25rem;
 }
 
-.textos-amplios-2 { display: flex;
+.textos-amplios-2 {
+    display: flex;
     padding: 2rem;
     width: 50%;
     color: white;
     margin-bottom: 6rem;
     font-size: 25px;
-   
+
 }
 
 /*=========================== FINAL FOOTER ==================================== */
 .redes-footer {
-    background: rgb(63,94,251);
-background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(22,228,193,1) 67%);
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(22, 228, 193, 1) 67%);
 }
+
 .final-index {
     font-size: 3rem;
     display: inline-block;
@@ -119,7 +121,7 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(22,228,193,1) 67%
 
 .logo-insta {
     display: inline-block;
-    width: 5rem;
+    width: 10rem;
     padding: 2rem;
     border-radius: 5px;
     position: relative;
@@ -129,7 +131,7 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(22,228,193,1) 67%
 
 .logo-youtube {
     display: inline-block;
-    width: 5rem;
+    width: 10rem;
     padding: 2rem;
     border-radius: 5px;
     position: relative;
@@ -199,33 +201,11 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(22,228,193,1) 67%
 }
 
 /*============== GALERIA ========================*/
-
-.conteiner-galeria1 {
+.conteiner-video-galeria{
     background-color: #0b4a5d;
-    display: inline block;
-    padding: 6rem;
-    padding-right: 2rem;
-}
-
-.imag1 {
-    width: 40rem;
-    height: 26rem;
-}
-
-.imag2 {
-    width: 40rem;
-}
-
-.conteiner-galeria2 {
-    background-color: #0b4a5d;
-    padding-left: 5rem;
-    padding-bottom: 3rem;
-}
-
-.conteiner-galeria3 {
-    background-color: #0b4a5d;
-    padding-right: 3rem;
-    padding-left: 17rem;
+    padding-left: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 /* ==============  CONTACTOS ===============  */
