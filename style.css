@@ -6,9 +6,9 @@
 
 
 body {
-    background: rgb(63, 94, 251);
-    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(18, 83, 217, 1) 67%);
-    padding-top: 165px;
+    background: #0b4a5d;
+
+    padding-top: 161px;
     font-family: 'PT Sans Narrow', sans-serif;
 
 
@@ -21,7 +21,7 @@ header {
     top: 0;
     width: 100%;
     max-height: 70px;
-    z-index: 99;
+    z-index: 120;
 }
 
 nav {
@@ -146,53 +146,81 @@ li {
 
 
 
-.gridConteiner1 {
+.conteinerDiscografia1 {
     background-color: #0b4a5d;
     display: grid;
-    grid-template-columns: 50% 30% 20%;
-    grid-template-rows: 60% 20%
-    grid-template-area "video1  parrafo1 item";
+    grid-template-columns: 40% 30% 30%;
+    grid-row-gap: 2%;
+    grid-column-gap: 2%;
+    grid-template-rows: min-content min-content;
+    grid-template-areas:
+        "video1  parrafo1 item"
+        "video2 video2  video2"
+
 }
 
-.grid__conteiner__video1 {
+.conteinerDiscografia1__video1 {
+    padding-top: 5%;
+    width: 100%;
+    height: 100%;
     grid-area: video1;
     justify-content: right;
+
 }
 
-.gridConteiner__parrafo1 {
+.conteinerDiscografia1__parrafo1 {
+    padding-top: 5%;
     grid-area: parrafo1;
     justify-content: left;
-    size: 25%;
+    font-size: 20px;
     color: white;
-
-
 }
 
-.gridConteiner1__item {
+.conteinerDiscografia1__itemDisco {
+    padding-top: 5%;
     grid-area: item;
     justify-content: left;
-}
-
-
-
-.texto-disco2 {
-    background-color: #0b4a5d;
-    display: inline-block;
-    text-align: right;
-    padding: 1rem;
-    width: 50%;
     color: white;
-    margin-bottom: 6rem;
-    font-size: 25px;
+    font-size: 20px;
+
 }
 
-.conteiner-video3 {
-    background-color: #0b4a5d;
-    display: flex;
-    display: flex;
-    justify-content: right;
-    padding: 2rem;
+.conteinerDiscografia1__video2 {
+
+    width: 100%;
+    grid-area: video2;
+    height: 300px;
 }
+
+.conteinerDiscografia2 {
+    background-color: #0b4a5d;
+    display: grid;
+    grid-template-rows: 65% 35%;
+    grid-row-gap: 2%;
+    grid-template-areas:
+        "video3 parrafo2"
+
+}
+.discografiaVideo3 {
+    padding-top: 5%;
+width: 100%;
+height: 100%;
+grid-area: video3;
+justify-content: right;
+
+}
+
+
+
+.conteinerDiscografia1__parrafo1 {
+    padding-top: 5%;
+    grid-area: parrafo2;
+    justify-content: left;
+    font-size: 20px;
+    color: white;
+}
+
+
 
 /*============== GALERIA ========================*/
 .conteiner-video-galeria {
@@ -293,3 +321,5 @@ textarea {
     padding: 40px;
 
 }
+
+@media (max-width: 480px) {}
