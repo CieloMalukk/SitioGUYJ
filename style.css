@@ -144,42 +144,36 @@ li {
 
 /*=========================== DISCOGRAFIA ===============================*/
 
-.cuerpo-disco {
+
+
+.gridConteiner1 {
     background-color: #0b4a5d;
+    display: grid;
+    grid-template-columns: 50% 30% 20%;
+    grid-template-rows: 60% 20%
+    grid-template-area "video1  parrafo1 item";
 }
 
-.conteiner-video1 {
-    background-color: #0b4a5d;
-    display: flex;
-    display: flex;
+.grid__conteiner__video1 {
+    grid-area: video1;
     justify-content: right;
-    padding: 2rem;
 }
 
-.texto-disco {
-    display: inline-block;
-    text-align: right;
-    padding: 2rem;
-    width: 50%;
+.gridConteiner__parrafo1 {
+    grid-area: parrafo1;
+    justify-content: left;
+    size: 25%;
     color: white;
-    margin-bottom: 6rem;
-    font-size: 25px;
+
+
 }
 
-.item-disco {
-    padding-top: 7%;
-    color: white;
-    font-size: 25px;
-    font-weight: 200%;
+.gridConteiner1__item {
+    grid-area: item;
+    justify-content: left;
 }
 
-.container-video2 {
-    background-color: #0b4a5d;
-    padding: 5px;
-    justify-content: right;
-    padding-left: 20rem;
-    padding-bottom: 6rem;
-}
+
 
 .texto-disco2 {
     background-color: #0b4a5d;
@@ -201,7 +195,7 @@ li {
 }
 
 /*============== GALERIA ========================*/
-.conteiner-video-galeria{
+.conteiner-video-galeria {
     background-color: #0b4a5d;
     padding-left: 20%;
     padding-top: 10%;
