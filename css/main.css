@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #0b4a5d;
+  padding-top: 161px;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+/*=================== INDEX ======================*/
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-height: 70px;
+  z-index: 120;
+}
+
+nav {
+  max-height: 100%;
+  background-color: #99dcf0;
+  font-size: 20px;
+}
+
+.logo-contenedor {
+  display: inline-block;
+}
+
+.logo-contenedor img {
+  width: 5rem;
+  border-radius: 5px;
+}
+
+a {
+  display: inline;
+  text-decoration: none;
+  text-align: right;
+  padding: 2rem;
+  margin: 5px 10px 12px 15px;
+  padding-right: 1rem;
+}
+
+li {
+  width: 10rem;
+  left: 20rem;
+  display: inline-block;
+  border-radius: 3rem;
+  padding-left: 2rem;
+}
+
+.enlace-principal {
+  margin-right: 0%;
+  list-style: none;
+  margin-top: 7rem;
+  float: right;
+}
+
+.conteiner-de-img-y-texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #0b4a5d;
+  padding: 3rem;
+}
+
+.textos-amplios-1 {
+  padding: 3rem;
+  width: 50%;
+  color: white;
+  margin-bottom: 6rem;
+  font-size: 25px;
+}
+
+.img-index1 {
+  width: 25rem;
+  height: 30rem;
+}
+
+.img-index2 {
+  width: 25rem;
+  height: 25rem;
+}
+
+.textos-amplios-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem;
+  width: 50%;
+  color: white;
+  margin-bottom: 6rem;
+  font-size: 25px;
+}
+
+/*=========================== FINAL FOOTER ==================================== */
+.redes-footer {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(22, 228, 193) 67%);
+}
+
+.final-index {
+  font-size: 3rem;
+  display: inline-block;
+  padding: 2rem;
+  font-size: 3rem;
+  color: white;
+}
+
+.logo-insta {
+  display: inline-block;
+  width: 10rem;
+  padding: 2rem;
+  border-radius: 5px;
+  position: relative;
+  left: 50%;
+}
+
+.logo-youtube {
+  display: inline-block;
+  width: 10rem;
+  padding: 2rem;
+  border-radius: 5px;
+  position: relative;
+  left: 50%;
+}
+
+/*=========================== DISCOGRAFIA ===============================*/
+.conteinerDiscografia1 {
+  background-color: #0b4a5d;
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  grid-row-gap: 2%;
+  grid-column-gap: 2%;
+  grid-template-rows: -webkit-min-content -webkit-min-content;
+  grid-template-rows: min-content min-content;
+  grid-template-areas: "video1  parrafo1 item" "video2 video2  video2";
+}
+
+.conteinerDiscografia1__video1 {
+  padding-top: 5%;
+  width: 100%;
+  height: 100%;
+  grid-area: video1;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.conteinerDiscografia1__parrafo1 {
+  padding-top: 5%;
+  grid-area: parrafo1;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  font-size: 20px;
+  color: white;
+}
+
+.conteinerDiscografia1__itemDisco {
+  padding-top: 5%;
+  grid-area: item;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  color: white;
+  font-size: 20px;
+}
+
+.conteinerDiscografia1__video2 {
+  width: 100%;
+  grid-area: video2;
+  height: 300px;
+}
+
+.conteinerDiscografia2 {
+  background-color: #0b4a5d;
+  display: grid;
+  grid-template-rows: 65% 35%;
+  grid-row-gap: 2%;
+  grid-template-areas: "video3 parrafo2";
+}
+
+.discografiaVideo3 {
+  padding-top: 5%;
+  width: 100%;
+  height: 100%;
+  grid-area: video3;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.conteinerDiscografia1__parrafo1 {
+  padding-top: 5%;
+  grid-area: parrafo2;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  font-size: 20px;
+  color: white;
+}
+
+/*============== GALERIA ========================*/
+.conteiner-video-galeria {
+  background-color: #0b4a5d;
+  padding-left: 20%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+/* ==============  CONTACTOS ===============  */
+.bloque-conteiner-contacto {
+  background-color: #0b4a5d;
+  padding: 5rem;
+}
+
+.bloque-contacto1 {
+  display: inline-block;
+  font-size: 30px;
+  width: 50%;
+  text-align: left;
+  border-bottom: 20rem;
+  vertical-align: top;
+  color: white;
+}
+
+.texto-contacto {
+  color: white;
+}
+
+input,
+textarea {
+  border-radius: 15px;
+  width: 100%;
+  padding: 20px;
+}
+
+.nombre-campo {
+  font-size: 25px;
+  color: white;
+}
+
+.enviar-formu {
+  left: 10px;
+}
+
+.enviar-formu {
+  display: block;
+}
+
+.bloque-contacto2 {
+  background-color: #0b4a5d;
+  font-size: 40px;
+  display: inline-block;
+  padding: 30px;
+}
+
+.nombre-campo {
+  display: block;
+}
+
+/* ===================  PLATAFORMA ===========================
+*/
+.cuerpo-plataf {
+  background-color: #0b4a5d;
+}
+
+.bloque-plat1 {
+  display: inline-block;
+}
+
+.imag-plat1 {
+  width: 20rem;
+  padding: 40px;
+}
+
+.texto-comple {
+  font-size: 50px;
+  display: inline-block;
+  padding-left: 20rem;
+  margin-top: 25%;
+  vertical-align: top;
+  color: white;
+}
+
+.imag-plat2 {
+  width: 25rem;
+  padding: 40px;
+}
