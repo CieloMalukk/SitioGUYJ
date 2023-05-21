@@ -29,29 +29,42 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a class="logo-contenedor" href="../index.html"><img class="logo-imagen" src="../ASSETS/logo1.jpg"
-                    alt="logo del sello"></a>
-            <ul class="enlace-principal">
-                <li>
-                    <a href="../index.html">INICIO</a>
-                </li>
-                <li>
-                    <a href="./disco.html">DISCOGRAFIA</a>
-                </li>
-                <li>
-                    <a href="./galeria.html">GALERIA</a>
-                </li>
-                <li>
-                    <a href="./plataf.html">PLATAFORMAS</a>
-                </li>
-                <li>
-                    <a href="./contacto.html">CONTACTO</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-info">
+        <div class="container-fluid">
+            <!-- icono  -->
+
+            <a class="navbar-brand" href="../index.html">
+                <i class="bi bi-flower1"></i>
+                <span class="text-warning"> <img src="/ASSETS/LOGOGUYJ.jpg" width="85px" alt="logo"></span>
+            </a>
+
+            <!-- boton del menu -->
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- elementos del menu colapsable -->
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./disco.html">Discografia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./plataf.html">Plataformas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+                    </li>
+</header>
 
     <section class="fondo-carrusel">
         <div id="carouselExampleIndicators" class="carousel slide">
