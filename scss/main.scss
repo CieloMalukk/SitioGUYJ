@@ -6,141 +6,63 @@
 
 
 body {
-    background: #0b4a5d;
-
-    padding-top: 161px;
-    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: #1A5F7A;
+    font-family: 'PT Sans Narrow',
+        sans-serif;
 
 
 }
 
-/*=================== INDEX ======================*/
+/*=================== Inicio.html ======================*/
 
-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    max-height: 70px;
-    z-index: 120;
-}
-
-nav {
-    max-height: 100%;
-    background-color: #99dcf0;
-    font-size: 20px;
-}
-
-.logo-contenedor {
-    display: inline-block;
-}
-
-.logo-contenedor img {
-    width: 5rem;
-    border-radius: 5px;
-}
-
-a {
-    display: inline;
-    text-decoration: none;
-    text-align: right;
-    padding: 2rem;
-
-    margin: 5px 10px 12px 15px;
-    padding-right: 1rem;
-}
-
-li {
-    width: 10rem;
-    left: 20rem;
-    display: inline-block;
-    border-radius: 3rem;
-    padding-left: 2rem;
-}
-
-.enlace-principal {
-    margin-right: 0%;
-    list-style: none;
-    margin-top: 7rem;
-    float: right;
-}
-
-
-
-
-.conteiner-de-img-y-texto {
-    display: flex;
+.container__index {
     background-color: #0b4a5d;
-    padding: 3rem;
-}
+    margin: 5rem;
 
-.textos-amplios-1 {
+    div {
+        display: flex;
+        margin: 2rem;
+        padding-top: 1rem;
+        justify-content: center;
+    }
 
-    padding: 3rem;
-    width: 50%;
-    color: white;
-    margin-bottom: 6rem;
-    font-size: 25px;
-}
-
-.img-index1 {
-
-    width: 25rem;
-    height: 30rem;
-}
-
-.img-index2 {
-
-    width: 25rem;
-    height: 25rem;
-}
-
-.textos-amplios-2 {
-    display: flex;
-    padding: 2rem;
-    width: 50%;
-    color: white;
-    margin-bottom: 6rem;
-    font-size: 25px;
+    p {
+        font-size: 25px;
+        color: white;
+        margin: 5rem;
+    }
 
 }
 
-/*=========================== FINAL FOOTER ==================================== */
-.redes-footer {
-    background: rgb(63, 94, 251);
-    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(22, 228, 193, 1) 67%);
+
+
+/*===========================  FOOTER ==================================== */
+
+footer {
+    margin-top: auto;
+    background-color: #1A5F7A;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 50px;
+        color: white;
+        margin: 5rem;
+
+    }
+
+    img {
+
+        justify-content: flex-end;
+        margin: 3rem;
+        left: 50%;
+    }
+
 }
-
-.final-index {
-    font-size: 3rem;
-    display: inline-block;
-    padding: 2rem;
-    font-size: 3rem;
-    color: white;
-
-}
-
-.logo-insta {
-    display: inline-block;
-    width: 10rem;
-    padding: 2rem;
-    border-radius: 5px;
-    position: relative;
-    left: 50%;
-
-}
-
-.logo-youtube {
-    display: inline-block;
-    width: 10rem;
-    padding: 2rem;
-    border-radius: 5px;
-    position: relative;
-    left: 50%;
-}
-
-
-
-
 
 /*=========================== DISCOGRAFIA ===============================*/
 
@@ -201,12 +123,13 @@ li {
         "video3 parrafo2"
 
 }
+
 .discografiaVideo3 {
     padding-top: 5%;
-width: 100%;
-height: 100%;
-grid-area: video3;
-justify-content: right;
+    width: 100%;
+    height: 100%;
+    grid-area: video3;
+    justify-content: right;
 
 }
 

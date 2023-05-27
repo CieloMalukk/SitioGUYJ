@@ -4,125 +4,57 @@
 }
 
 body {
-  background: #0b4a5d;
-  padding-top: 161px;
+  background-color: #1A5F7A;
   font-family: "PT Sans Narrow", sans-serif;
 }
 
-/*=================== INDEX ======================*/
-header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  max-height: 70px;
-  z-index: 120;
-}
-
-nav {
-  max-height: 100%;
-  background-color: #99dcf0;
-  font-size: 20px;
-}
-
-.logo-contenedor {
-  display: inline-block;
-}
-
-.logo-contenedor img {
-  width: 5rem;
-  border-radius: 5px;
-}
-
-a {
-  display: inline;
-  text-decoration: none;
-  text-align: right;
-  padding: 2rem;
-  margin: 5px 10px 12px 15px;
-  padding-right: 1rem;
-}
-
-li {
-  width: 10rem;
-  left: 20rem;
-  display: inline-block;
-  border-radius: 3rem;
-  padding-left: 2rem;
-}
-
-.enlace-principal {
-  margin-right: 0%;
-  list-style: none;
-  margin-top: 7rem;
-  float: right;
-}
-
-.conteiner-de-img-y-texto {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+/*=================== Inicio.html ======================*/
+.container__index {
   background-color: #0b4a5d;
-  padding: 3rem;
+  margin: 5rem;
 }
-
-.textos-amplios-1 {
-  padding: 3rem;
-  width: 50%;
-  color: white;
-  margin-bottom: 6rem;
-  font-size: 25px;
-}
-
-.img-index1 {
-  width: 25rem;
-  height: 30rem;
-}
-
-.img-index2 {
-  width: 25rem;
-  height: 25rem;
-}
-
-.textos-amplios-2 {
+.container__index div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 2rem;
-  width: 50%;
-  color: white;
-  margin-bottom: 6rem;
+  margin: 2rem;
+  padding-top: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.container__index p {
   font-size: 25px;
-}
-
-/*=========================== FINAL FOOTER ==================================== */
-.redes-footer {
-  background: rgb(63, 94, 251);
-  background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(22, 228, 193) 67%);
-}
-
-.final-index {
-  font-size: 3rem;
-  display: inline-block;
-  padding: 2rem;
-  font-size: 3rem;
   color: white;
+  margin: 5rem;
 }
 
-.logo-insta {
-  display: inline-block;
-  width: 10rem;
-  padding: 2rem;
-  border-radius: 5px;
-  position: relative;
-  left: 50%;
+/*===========================  FOOTER ==================================== */
+footer {
+  margin-top: auto;
+  background-color: #1A5F7A;
 }
-
-.logo-youtube {
-  display: inline-block;
-  width: 10rem;
-  padding: 2rem;
-  border-radius: 5px;
-  position: relative;
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer h1 {
+  font-size: 50px;
+  color: white;
+  margin: 5rem;
+}
+footer img {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 3rem;
   left: 50%;
 }
 
@@ -203,13 +135,6 @@ li {
 }
 
 /*============== GALERIA ========================*/
-.conteiner-video-galeria {
-  background-color: #0b4a5d;
-  padding-left: 20%;
-  padding-top: 10%;
-  padding-bottom: 10%;
-}
-
 /* ==============  CONTACTOS ===============  */
 .bloque-conteiner-contacto {
   background-color: #0b4a5d;
