@@ -44,7 +44,7 @@ footer {
 
     div {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
     }
 
@@ -67,81 +67,77 @@ footer {
 /*=========================== DISCOGRAFIA ===============================*/
 
 
-
-.conteinerDiscografia1 {
-    background-color: #0b4a5d;
+.gridContainer {
     display: grid;
-    grid-template-columns: 40% 30% 30%;
-    grid-row-gap: 2%;
-    grid-column-gap: 2%;
-    grid-template-rows: min-content min-content;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 4px 2px;
     grid-template-areas:
-        "video1  parrafo1 item"
-        "video2 video2  video2"
-
+        "videoset1 videoset1 parrafo1"
+        ". videoset2 videoset2"
+        "videoset3 videoset3 parrafo2";
 }
 
-.conteinerDiscografia1__video1 {
-    padding-top: 5%;
-    width: 100%;
-    height: 100%;
-    grid-area: video1;
-    justify-content: right;
-
+.videoset1 {
+    grid-area: videoset1;
 }
 
-.conteinerDiscografia1__parrafo1 {
-    padding-top: 5%;
+.parrafo1 {
     grid-area: parrafo1;
-    justify-content: left;
-    font-size: 20px;
-    color: white;
 }
 
-.conteinerDiscografia1__itemDisco {
-    padding-top: 5%;
-    grid-area: item;
-    justify-content: left;
-    color: white;
-    font-size: 20px;
-
+.videoset2 {
+    grid-area: videoset2;
 }
 
-.conteinerDiscografia1__video2 {
-
-    width: 100%;
-    grid-area: video2;
-    height: 300px;
+.videoset3 {
+    grid-area: videoset3;
 }
 
-.conteinerDiscografia2 {
-    background-color: #0b4a5d;
-    display: grid;
-    grid-template-rows: 65% 35%;
-    grid-row-gap: 2%;
-    grid-template-areas:
-        "video3 parrafo2"
-
-}
-
-.discografiaVideo3 {
-    padding-top: 5%;
-    width: 100%;
-    height: 100%;
-    grid-area: video3;
-    justify-content: right;
-
-}
-
-
-
-.conteinerDiscografia1__parrafo1 {
-    padding-top: 5%;
+.parrafo2 {
     grid-area: parrafo2;
-    justify-content: left;
+}
+
+.gridContainer {
+    background-color: #0b4a5d;
+}
+
+.videoset1 {
+    margin-top: auto;
+    margin: 5rem;
+}
+
+p {
     font-size: 20px;
     color: white;
+
 }
+
+.parrafo1 {
+    margin: 5rem;
+    justify-content: space-around;
+}
+
+.videoset2 {
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.videoset3 {
+    margin-top: auto;
+    margin: 5rem;
+
+}
+
+.parrafo2 {
+
+    margin: 5rem;
+}
+
 
 
 
