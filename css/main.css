@@ -10,6 +10,7 @@ body {
 
 .navbarColor {
   background-color: rgb(15, 68, 117);
+  font-size: 25px;
 }
 
 .container__index {
@@ -177,11 +178,10 @@ p {
           flex-direction: column;
 }
 
-img {
-  margin-left: 20rem;
-  margin-bottom: 10rem;
-}
-
+/* img {
+    margin-left: 20rem;
+    margin-bottom: 10rem;
+} */
 .enlacesPlataformas {
   color: white;
   font-size: 50px;
