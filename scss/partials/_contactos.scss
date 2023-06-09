@@ -1,0 +1,38 @@
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "tituloContacto containerDatos_contacto"
+        "parrafoContacto containerDatos_contacto"
+        ". containerDatos_contacto";
+}
+
+.tituloContacto {
+    grid-area: tituloContacto;
+    color: white;
+    font-size: 80px;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.parrafoContacto {
+    grid-area: parrafoContacto;
+    font-size: 30px;
+
+
+}
+
+.containerDatos_contacto {
+    grid-area: containerDatos_contacto;
+    margin: 1rem;
+    margin-top: 1rem;
+
+    button {
+
+        border-radius: 5px;
+    }
+}

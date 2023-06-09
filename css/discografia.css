@@ -1,0 +1,62 @@
+.gridContainer {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 4px 2px;
+  grid-template-areas: "videoset1 videoset1 parrafo1" ". videoset2 videoset2" "videoset3 videoset3 parrafo2";
+}
+
+.videoset1 {
+  grid-area: videoset1;
+}
+
+.parrafo1 {
+  grid-area: parrafo1;
+}
+
+.videoset2 {
+  grid-area: videoset2;
+}
+
+.videoset3 {
+  grid-area: videoset3;
+}
+
+.parrafo2 {
+  grid-area: parrafo2;
+}
+
+.gridContainer {
+  background-color: #0b4a5d;
+}
+
+.videoset1 {
+  margin-top: auto;
+  margin: 5rem;
+}
+
+p {
+  font-size: 20px;
+  color: white;
+}
+
+.parrafo1 {
+  margin: 5rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.videoset2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.videoset3 {
+  margin-top: auto;
+  margin: 5rem;
+}
+
+.parrafo2 {
+  margin: 5rem;
+}

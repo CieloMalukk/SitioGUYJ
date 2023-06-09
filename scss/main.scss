@@ -1,4 +1,31 @@
-* {
+
+@import "./partials/general.scss";
+
+@import "./partials/iniciohtml.scss";
+
+@import "./partials/footer.scss";
+
+@import "./partials/discografia.scss";
+
+@import "./partials/galeria";
+
+@import "./partials/contactos";
+
+@import "./partials/plataforma";
+
+
+
+
+
+
+
+
+
+
+/* ---------------------General/Global------------------- */
+
+
+/* * {
     margin: 0;
     padding: 0;
 }
@@ -19,7 +46,7 @@ background-color: #0b4a5d;
 
 
 /*=================== Inicio.html ======================*/
-
+/* 
 .container__index {
     background-color: #0b4a5d;
     margin: 5rem;
@@ -38,11 +65,11 @@ background-color: #0b4a5d;
     }
 
 }
-
+ */ 
 
 /*===========================  FOOTER ==================================== */
 
-footer {
+/* footer {
     margin-top: auto;
     background-color: hsl(199, 47%, 37%);
 
@@ -67,10 +94,10 @@ footer {
     }
 
 }
-
+ */
 /*=========================== DISCOGRAFIA ===============================*/
 
-
+/* 
 .gridContainer {
     display: grid;
     grid-auto-columns: 1fr;
@@ -138,11 +165,11 @@ p {
 .parrafo2 {
 
     margin: 5rem;
-}
+} */
 
 /*============== GALERIA ========================*/
 
-.containerGaleria_img1 {
+/* .containerGaleria_img1 {
     margin: 3rem;
     padding-bottom: 3rem;
 
@@ -158,10 +185,10 @@ p {
 .videoGaleria {
     margin-left: 15.5%;
 }
-
+ */
 /* ==============  CONTACTOS ===============  */
 
-
+/* 
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -198,12 +225,12 @@ p {
 
         border-radius: 5px;
     }
-}
+} */
 
 /* ===================  PLATAFORMA ===========================
 */
 
-
+/* 
 .containerPlataformas {
     display: flex;
     flex-direction: column;
@@ -225,39 +252,5 @@ img {
 .enlacesPlataformas:hover{
     height: 2rem;
 }
-
-
-
-
-/* .cuerpo-plataf {
-    background-color: #0b4a5d;
-
-}
-
-
-.bloque-plat1 {
-    display: inline-block;
-}
-
-.imag-plat1 {
-    width: 20rem;
-    padding: 40px;
-
-
-}
-
-.texto-comple {
-    font-size: 50px;
-    display: inline-block;
-    padding-left: 20rem;
-    margin-top: 25%;
-    vertical-align: top;
-    color: white;
-}
-
-.imag-plat2 {
-    width: 25rem;
-    padding: 40px;
-
-} */
+ */
 

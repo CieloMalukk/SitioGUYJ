@@ -1,0 +1,26 @@
+footer {
+  margin-top: auto;
+  background-color: hsl(199, 47%, 37%);
+}
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer h1 {
+  font-size: 50px;
+  color: white;
+  margin: 5rem;
+}
+footer img {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 3rem;
+  left: 50%;
+}

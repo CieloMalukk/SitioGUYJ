@@ -1,0 +1,25 @@
+footer {
+    margin-top: auto;
+    background-color: hsl(199, 47%, 37%);
+
+    div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 50px;
+        color: white;
+        margin: 5rem;
+
+    }
+
+    img {
+
+        justify-content: flex-end;
+        margin: 3rem;
+        left: 50%;
+    }
+
+}
