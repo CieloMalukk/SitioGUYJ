@@ -1,4 +1,50 @@
+
+.ContactoFlex{
+    display: flex;
+justify-content: center;
+
+
+}
+
+
+/* 
+/* 
 .containerContacto {
+   
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+    font-size: 25px;
+
+  /*   tituloContacto {
+        font-size: 50px;
+    }
+
+    parraContacto {
+        font-size: 25px;
+    } */
+
+/* 
+
+.formContacto {
+   
+    flex-direction: column;
+    justify-content: flex-end;
+
+    nombre-campo {
+        font: 20px;
+        color: white;
+    }
+    
+    button{
+        border-radius: 3px;
+    }
+
+
+}  
+ */
+
+/* .containerContacto {
     font-size: 25px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -52,7 +98,7 @@ button {
     border-radius: 5px;
 }
 
-
+ */
 
 /* 
 .containerContacto {
