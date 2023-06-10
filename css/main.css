@@ -277,224 +277,29 @@ footer img {
     height: .1rem;
 }
   */
-/* ---------------------General/Global------------------- */
-/* * {
-    margin: 0;
-    padding: 0;
+/*------------------- MOBILE --------------------------- */
+@media screen and (max-width: 480px) {
+  body {
+    background-color: red;
+  }
 }
-
-
-
-body {
-background-color: #0b4a5d;
-    font-family: 'PT Sans Narrow',
-        sans-serif;
-
-
+/* ------------------------------ TABLET ----------------------------- */
+@media screen and (min-width: 481px) and (max-width: 800px) {
+  body {
+    background-color: yellow;
+  }
 }
-
-
-
-
-
-
-/*=================== Inicio.html ======================*/
-/* 
-.container__index {
-    background-color: #0b4a5d;
-    margin: 5rem;
-
-    div {
-        display: flex;
-        margin: 2rem;
-        padding-top: 1rem;
-        justify-content: center;
-    }
-
-    p {
-        font-size: 25px;
-        color: white;
-        margin: 5rem;
-    }
-
+/* -------------------------------- DESKTOP --------------------------------*/
+@media screen and (min-width: 801px) and (max-width: 1400px) {
+  body {
+    background-color: rgb(234, 25, 179);
+  }
 }
- */
-/*===========================  FOOTER ==================================== */
-/* footer {
-    margin-top: auto;
-    background-color: hsl(199, 47%, 37%);
-
-    div {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    h1 {
-        font-size: 50px;
-        color: white;
-        margin: 5rem;
-
-    }
-
-    img {
-
-        justify-content: flex-end;
-        margin: 3rem;
-        left: 50%;
-    }
-
+/* ------------------XXL----------------------------------------------------- */
+@media screen and (min-width: 1401px) {
+  body {
+    background-color: rgb(48, 113, 174);
+    max-width: 1400px;
+    margin: auto;
+  }
 }
- */
-/*=========================== DISCOGRAFIA ===============================*/
-/* 
-.gridContainer {
-    display: grid;
-    grid-auto-columns: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 4px 2px;
-    grid-template-areas:
-        "videoset1 videoset1 parrafo1"
-        ". videoset2 videoset2"
-        "videoset3 videoset3 parrafo2";
-}
-
-.videoset1 {
-    grid-area: videoset1;
-}
-
-.parrafo1 {
-    grid-area: parrafo1;
-}
-
-.videoset2 {
-    grid-area: videoset2;
-}
-
-.videoset3 {
-    grid-area: videoset3;
-}
-
-.parrafo2 {
-    grid-area: parrafo2;
-}
-
-.gridContainer {
-    background-color: #0b4a5d;
-}
-
-.videoset1 {
-    margin-top: auto;
-    margin: 5rem;
-}
-
-p {
-    font-size: 20px;
-    color: white;
-
-}
-
-.parrafo1 {
-    margin: 5rem;
-    justify-content: space-around;
-}
-
-.videoset2 {
-
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.videoset3 {
-    margin-top: auto;
-    margin: 5rem;
-
-}
-
-.parrafo2 {
-
-    margin: 5rem;
-} */
-/*============== GALERIA ========================*/
-/* .containerGaleria_img1 {
-    margin: 3rem;
-    padding-bottom: 3rem;
-
-}
-
-.containerGaleria_img2 {
-    margin: 3rem;
-    margin-top: rem;
-
-
-}
-
-.videoGaleria {
-    margin-left: 15.5%;
-}
- */
-/* ==============  CONTACTOS ===============  */
-/* 
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "tituloContacto containerDatos_contacto"
-        "parrafoContacto containerDatos_contacto"
-        ". containerDatos_contacto";
-}
-
-.tituloContacto {
-    grid-area: tituloContacto;
-    color: white;
-    font-size: 80px;
-    margin-top: 5rem;
-    margin-bottom: 3rem;
-}
-
-.parrafoContacto {
-    grid-area: parrafoContacto;
-    font-size: 30px;
-
-
-}
-
-.containerDatos_contacto {
-    grid-area: containerDatos_contacto;
-    margin: 1rem;
-    margin-top: 1rem;
-
-    button {
-
-        border-radius: 5px;
-    }
-} */
-/* ===================  PLATAFORMA ===========================
-*/
-/* 
-.containerPlataformas {
-    display: flex;
-    flex-direction: column;
-
-}
-
-img {
-    margin-left: 20rem;
-    margin-bottom: 10rem;
-}
-
-.enlacesPlataformas {
-    color: white;
-    font-size: 50px;
-    margin-right: 20rem;
-
-}
-
-.enlacesPlataformas:hover{
-    height: 2rem;
-}
- */
