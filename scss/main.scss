@@ -22,9 +22,44 @@
 @media screen and (max-width: 480px) {
     body {
         background-color: red;
+
+    }
+
+    .container__index {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 
 
+    footer {
+        margin-top: auto;
+        background-color: rgb(15, 68, 117);
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            flex-wrap: wrap;
+
+        }
+
+        h1 {
+            font-size: 15px;
+            color: white;
+            margin: 5rem;
+
+        }
+
+        img {
+
+            justify-content: flex-end;
+            margin: 3rem;
+            left: 50%;
+        }
+
+    }
 
 }
 
@@ -35,28 +70,35 @@
         background-color: yellow;
     }
 
+    .container__index {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
 }
 
 /* -------------------------------- DESKTOP --------------------------------*/
 
-@media screen and (min-width: 801px) and (max-width: 1400px) {
+@media screen and (min-width: 801px) and (max-width: 1100px) {
     body {
         background-color: rgb(234, 25, 179);
 
     }
+
+    .container__index {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
-
-
-
-
-
-
+}
 
 
 /* ------------------XXL----------------------------------------------------- */
 
-@media screen and (min-width: 1401px) {
+@media screen and (min-width: 1101px) {
     body {
         background-color: rgb(48, 113, 174);
         max-width: 1400px;
