@@ -1,144 +1,49 @@
-
-.ContactoFlex{
+.ContactoFlex {
     display: flex;
-justify-content: center;
+    justify-content: center;
 
 
 }
 
-
-/* 
-/* 
 .containerContacto {
-   
+
     flex-direction: column;
     justify-content: flex-start;
     color: white;
     font-size: 25px;
+    margin: 3rem;
 
-  /*   tituloContacto {
+
+    tituloContacto {
         font-size: 50px;
+        justify-items: start;
     }
-
-    parraContacto {
-        font-size: 25px;
-    } */
-
-/* 
+}
 
 .formContacto {
-   
+    display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    font-size: 20px;
+    color: white;
+    margin: 2rem;
 
-    nombre-campo {
-        font: 20px;
-        color: white;
-    }
-    
-    button{
+    button {
         border-radius: 3px;
     }
 
-
-}  
- */
-
-/* .containerContacto {
-    font-size: 25px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-
-    grid-auto-flow: row;
-    grid-template-areas:
-        "tituloContacto --------containerDatos_contacto"
-        "parrafoContacto --------containerDatos_contacto"
-
-}
-
-.tituloContacto {
-    grid-area: tituloContacto;
-    color: white;
-    justify-items: start;
-    margin: 1rem;
-    padding-left: 7rem;
-    font-size: 10rem;
-    margin-top: 5rem;
-    margin-bottom: 3rem;
-}
-
-.parrafoContacto {
-    color: white;
-    justify-self: center;
-    margin: 1rem;
-    font-size: 30px;
-}
-
-
-
-.--------containerDatos_contacto {
-    grid-area: --------containerDatos_contacto;
-    justify-content: end;
-    color: white;
-    margin: 1rem;
-    margin-top: 1rem;
-    color: white;
- 
-    flex-direction: column;
-    justify-content: space-evenly;
-
-
-
-
-}
-
-button {
-
-    border-radius: 5px;
-}
-
- */
-
-/* 
-.containerContacto {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "tituloContacto containerDatos_contacto"
-        "parrafoContacto containerDatos_contacto"
-        ". containerDatos_contacto";
-}
-
-.tituloContacto {
-    grid-area: tituloContacto;
-    color: white;
-    font-size: 80px;
-    margin-top: 5rem;
-    margin-bottom: 3rem;
-}
-
-.parrafoContacto {
-    grid-area: parrafoContacto;
-    font-size: 30px;
-
-
-}
-
-.containerDatos_contacto {
-    grid-area: containerDatos_contacto;
-    margin: 1rem;
-    margin-top: 1rem;
-    color: white;
-    display: flex;
-    
-    
-
-    button {
-
+    input {
         border-radius: 5px;
     }
-} */
+
+    textarea {
+        border-radius: 5px;
+    }
+}
+
+.nombre-campo {
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    margin: 5px;
+
+}

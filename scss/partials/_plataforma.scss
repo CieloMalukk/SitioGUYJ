@@ -1,5 +1,52 @@
-
 .containerPlataformas {
+
+    background: rgb(63, 251, 219);
+    background: linear-gradient(9deg, rgba(63, 251, 219, 0.8278367499343487) 7%, rgba(96, 121, 183, 1) 55%);
+
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    align-content: space-between;
+
+}
+
+.segundoContainer {
+    justify-content: flex-end;
+}
+
+
+.imgPlataformas {
+    background-color: rgba(18, 142, 180, 0.316);
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+}
+.imgPlataformas:hover{
+    background-color: rgb(130, 182, 226);
+}
+
+.enlacesPlataformas {
+    color: white;
+    font-size: 50px;
+    margin: 20rem;
+    list-style: none;
+    font-style: oblique;
+    background-color: rgba(22, 82, 192, 0.67);
+    padding: 2rem;
+    border-radius: 3px;
+    
+
+}
+
+.enlacesPlataformas:hover{
+    background-color: rgb(61, 198, 228);
+    color: black;
+}
+
+
+/* .containerPlataformas {
     display: flex;
     flex-direction: column;
 
@@ -10,7 +57,7 @@
     margin-bottom: 10rem;
 } */
 
-.enlacesPlataformas {
+/* .enlacesPlataformas {
     color: white;
     font-size: 50px;
     margin-right: 20rem;
@@ -20,3 +67,4 @@
 .enlacesPlataformas:hover{
     height: .1rem;
 }
+  */
