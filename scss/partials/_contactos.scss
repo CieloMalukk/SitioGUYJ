@@ -1,5 +1,61 @@
+.containerContacto {
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 
-.container {
+    grid-auto-flow: row;
+    grid-template-areas:
+        "tituloContacto --------containerDatos_contacto"
+        "parrafoContacto --------containerDatos_contacto"
+
+}
+
+.tituloContacto {
+    grid-area: tituloContacto;
+    color: white;
+    justify-items: start;
+    margin: 1rem;
+    padding-left: 7rem;
+    font-size: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.parrafoContacto {
+    color: white;
+    justify-self: center;
+    margin: 1rem;
+    font-size: 30px;
+}
+
+
+
+.--------containerDatos_contacto {
+    grid-area: --------containerDatos_contacto;
+    justify-content: end;
+    color: white;
+    margin: 1rem;
+    margin-top: 1rem;
+    color: white;
+ 
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+
+
+}
+
+button {
+
+    border-radius: 5px;
+}
+
+
+
+/* 
+.containerContacto {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -30,9 +86,13 @@
     grid-area: containerDatos_contacto;
     margin: 1rem;
     margin-top: 1rem;
+    color: white;
+    display: flex;
+    
+    
 
     button {
 
         border-radius: 5px;
     }
-}
+} */
